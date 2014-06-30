@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Level</key>
+	<array>
+		<dict>
+			<key>Hero</key>
+			<dict>
+				<key>Bullet</key>
+				<dict>
+					<key>Sprite</key>
+					<string>bullet.png</string>
+					<key>distance</key>
+					<integer>400</integer>
+				</dict>
+				<key>Walk Speed</key>
+				<integer>80</integer>
+				<key>Damage</key>
+				<integer>30</integer>
+				<key>Hit Point</key>
+				<integer>100</integer>
+				<key>Animation Sprite</key>
+				<dict>
+					<key>Idle Animation</key>
+					<array>
+						<string>hero_idle_1.png</string>
+						<string>hero_idle_2.png</string>
+						<string>hero_idle_3.png</string>
+						<string>hero_idle_4.png</string>
+						<string>hero_idle_5.png</string>
+						<string>hero_idle_6.png</string>
+					</array>
+					<key>Attack Animation</key>
+					<array>
+						<string>hero_attack_1.png</string>
+						<string>hero_attack_2.png</string>
+						<string>hero_attack_3.png</string>
+						<string>hero_attack_4.png</string>
+					</array>
+					<key>Walk Animation</key>
+					<array>
+						<string>hero_walk_1.png</string>
+						<string>hero_walk_2.png</string>
+						<string>hero_walk_3.png</string>
+						<string>hero_walk_4.png</string>
+					</array>
+					<key>Hurt Animation</key>
+					<array>
+						<string>hero_hurt_1.png</string>
+						<string>hero_hurt_2.png</string>
+						<string>hero_hurt_3.png</string>
+						<string>hero_hurt_4.png</string>
+						<string>hero_hurt_5.png</string>
+						<string>hero_hurt_6.png</string>
+					</array>
+					<key>Knocked Out Animation</key>
+					<array>
+						<string>hero_knocked_1.png</string>
+						<string>hero_knocked_2.png</string>
+						<string>hero_knocked_3.png</string>
+						<string>hero_knocked_4.png</string>
+						<string>hero_knocked_5.png</string>
+						<string>hero_knocked_6.png</string>
+						<string>hero_knocked_7.png</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Map</key>
+			<string>map.tmx</string>
+		</dict>
+	</array>
+	<key>Options</key>
+	<dict>
+		<key>DPad</key>
+		<string>dPad.png</string>
+		<key>Button</key>
+		<dict>
+			<key>StartButton</key>
+			<dict>
+				<key>highligter</key>
+				<string>startHighlighter.png</string>
+				<key>normal</key>
+				<string>startNormal.png</string>
+			</dict>
+			<key>HighscoreButton</key>
+			<dict>
+				<key>highligter</key>
+				<string>highscoreHighlighter.png</string>
+				<key>normal</key>
+				<string>highscoreNormal.png</string>
+			</dict>
+		</dict>
+		<key>BackgroundArt</key>
+		<string>background.png</string>
+	</dict>
+</dict>
+</plist>
