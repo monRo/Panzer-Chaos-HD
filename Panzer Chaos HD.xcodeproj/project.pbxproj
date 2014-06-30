@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77A7EE8B1961F017004A7D14 /* Trace.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A7EE8A1961F017004A7D14 /* Trace.m */; };
+		77A7EE8E1961F18F004A7D14 /* trace.png in Resources */ = {isa = PBXBuildFile; fileRef = 77A7EE8D1961F18F004A7D14 /* trace.png */; };
 		9139C947195DA513005327BD /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 9139C946195DA513005327BD /* bullet.png */; };
 		91548F99195D68DC005EA7A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91548F98195D68DC005EA7A8 /* Images.xcassets */; };
 		91548F9F195D6B8A005EA7A8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 91548F9D195D6B8A005EA7A8 /* background.png */; };
@@ -263,6 +265,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77A7EE891961F017004A7D14 /* Trace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trace.h; sourceTree = "<group>"; };
+		77A7EE8A1961F017004A7D14 /* Trace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trace.m; sourceTree = "<group>"; };
+		77A7EE8D1961F18F004A7D14 /* trace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trace.png; sourceTree = "<group>"; };
 		9139C946195DA513005327BD /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 		91548F98195D68DC005EA7A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91548F9D195D6B8A005EA7A8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
@@ -743,6 +748,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77A7EE8C1961F179004A7D14 /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				77A7EE8D1961F18F004A7D14 /* trace.png */,
+			);
+			name = Trace;
+			sourceTree = "<group>";
+		};
 		9139C945195DA50D005327BD /* Bullet */ = {
 			isa = PBXGroup;
 			children = (
@@ -754,6 +767,7 @@
 		91548F9A195D6B74005EA7A8 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				77A7EE8C1961F179004A7D14 /* Trace */,
 				9139C945195DA50D005327BD /* Bullet */,
 				919692E4195D844700FD843F /* Hero */,
 				91548FAE195D732E005EA7A8 /* DPAd */,
@@ -1654,6 +1668,8 @@
 				919692DE195D7D1E00FD843F /* Turret.m */,
 				919692E0195D7D3F00FD843F /* Bullet.h */,
 				919692E1195D7D3F00FD843F /* Bullet.m */,
+				77A7EE891961F017004A7D14 /* Trace.h */,
+				77A7EE8A1961F017004A7D14 /* Trace.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -1796,6 +1812,7 @@
 				91BB2138195D541800E717A6 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				91969310195D845E00FD843F /* hero_knocked_1.png in Resources */,
 				9196930C195D845E00FD843F /* hero_idle_3.png in Resources */,
+				77A7EE8E1961F18F004A7D14 /* trace.png in Resources */,
 				91969307195D845E00FD843F /* hero_hurt_4.png in Resources */,
 				91BB213C195D541800E717A6 /* Icon-Small.png in Resources */,
 				91BB213A195D541800E717A6 /* Icon-Small-50.png in Resources */,
@@ -1861,6 +1878,7 @@
 				91BB215F195D541800E717A6 /* CCEffectColor.m in Sources */,
 				91BB2159195D541800E717A6 /* CCEffect.m in Sources */,
 				91BB22F7195D541F00E717A6 /* CCBAnimationManager.m in Sources */,
+				77A7EE8B1961F017004A7D14 /* Trace.m in Sources */,
 				91BB2265195D541D00E717A6 /* CCVertex.m in Sources */,
 				91BB2199195D541900E717A6 /* CCAnimationCache.m in Sources */,
 				91BB23A9195D59EE00E717A6 /* GameLayer.m in Sources */,

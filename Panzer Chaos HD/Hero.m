@@ -9,6 +9,7 @@
 #import "Hero.h"
 #import "Bullet.h"
 #import "GameLayer.h"
+#import "Trace.h"
 
 @implementation Hero
 
@@ -115,16 +116,25 @@
             break;
     }
     
-    NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithFloat:direction], @"rotation",
-                                                                    [NSValue valueWithCGPoint:self.position], @"position",
-                                                                    nil];
-    Bullet *bullet = [Bullet createWithparametrs:dict];
-    [self.parent addChild:bullet];
+    if ([self.parent getChildByName:@"bullet" recursively:YES] == nil) {
+        NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithFloat:direction], @"rotation",
+                              [NSValue valueWithCGPoint:self.position], @"position",
+                              nil];
+        Bullet *bullet = [Bullet createWithparametrs:dict];
+        [self.parent addChild:bullet z:55 name:@"bullet"];
+    }
 }
 
 -(void)knockout
 {
     [super knockout];
 }
+
+//- (void)update:(CCTime)delta
+//{
+//    [super update:delta];
+//    Trace *trace = [Trace createFor:self];
+//    [self.parent addChild:trace];
+//}
 
 @end

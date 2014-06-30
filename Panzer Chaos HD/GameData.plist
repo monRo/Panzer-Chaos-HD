@@ -7,6 +7,15 @@
 		<dict>
 			<key>Hero</key>
 			<dict>
+				<key>Trace</key>
+				<dict>
+					<key>Duration</key>
+					<string>6</string>
+					<key>Delay</key>
+					<integer>4</integer>
+					<key>Sprite</key>
+					<string>trace.png</string>
+				</dict>
 				<key>Bullet</key>
 				<dict>
 					<key>Sprite</key>
